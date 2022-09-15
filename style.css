@@ -1,0 +1,123 @@
+body {
+    font-size: 16px;
+    color: #2b283a;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/* typography */
+h1, h3 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 36px;
+    color: whitesmoke;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 20px;
+    color: #d0aaff;
+}
+
+p {
+    line-height: 23px;
+}
+
+/* p { }
+the default font is 16PX - don't need this p
+*/
+
+/* h2, p {
+    color: #2b283a; -- default in the BODY, this will be extra code
+} */
+
+/* links */
+
+a {
+    color: #ef5839;
+    text-decoration: underline dotted 2px;
+  }
+
+a:hover,  a:active {
+    color: #d4b44c;
+}
+
+.btn {
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    border: none;
+    font-weight: 500px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-dark {
+    color: whitesmoke;
+    background-color: #5f29a3;
+}
+
+.btn-mid {
+    background-color: #f0e0ff;
+    color: #5f29a3;
+}
+
+.btn-light {
+    background-color: whitesmoke;
+    color: #5f29a3;
+}
+
+.btn:hover, 
+.btn:active {
+    background-color: #f3e885;
+    color: #2b283a;
+}
+
+/* layout */ 
+
+header, .section-two-image-container {
+    background-color: #5f29a3;
+}
+
+header, 
+section, 
+footer {
+    padding: 45px 0;
+}
+
+.container {
+    width: 620px;
+    margin: 0 auto;
+}
+
+.crypto {
+    background-color: #5f29a3;
+    color: whitesmoke;
+}
+
+.main-image {
+    width: 100%;
+}
+
+.punk, .bag {
+    width: 300px;
+    border-radius: 4.6px;
+}
+
+.section-two-image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    text-align: center;
+    color: #5f29a3;
+    font-weight: bold;
+    background-color: whitesmoke;
+}
